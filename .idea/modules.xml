@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ForestBlog/ForestBlog.iml" filepath="$PROJECT_DIR$/ForestBlog/ForestBlog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hadoop/hadoop.iml" filepath="$PROJECT_DIR$/hadoop/hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbase01/hbase01.iml" filepath="$PROJECT_DIR$/hbase01/hbase01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hive01/hive01.iml" filepath="$PROJECT_DIR$/hive01/hive01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mapreduce/mapreduce.iml" filepath="$PROJECT_DIR$/mapreduce/mapreduce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project02.iml" filepath="$PROJECT_DIR$/project02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm01/ssm01.iml" filepath="$PROJECT_DIR$/ssm01/ssm01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssm02_crud/ssm02_crud.iml" filepath="$PROJECT_DIR$/ssm02_crud/ssm02_crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper/zookeeper.iml" filepath="$PROJECT_DIR$/zookeeper/zookeeper.iml" />
+    </modules>
+  </component>
+</project>

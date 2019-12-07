@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="bin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../Tomcat/apache-tomcat-8.0.52/lib/jsp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Tomcat/apache-tomcat-8.0.52/lib/servlet-api.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../Tomcat/apache-tomcat-8.0.52/bin" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../../Tomcat/apache-tomcat-8.0.52/bin" />
+    </NATIVE>
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../Tomcat/apache-tomcat-8.0.52/bin" recursive="false" />
+  </library>
+</component>

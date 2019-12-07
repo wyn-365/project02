@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--驼峰命名规则-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+    <!--配置别名-->
+    <typeAliases>
+        <package name="com.wang.bean"/>
+    </typeAliases>
+
+    <!--注册分页插件pageHelper-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <property name="reasonable" value="true"/>
+        </plugin>
+        <!--配置分页合理化 首页是和末页-->
+       
+    </plugins>
+
+    <!--配置具体的环境-->
+        <environments default="mysql">
+            <environment id="mysql">
+                <transactionManager type="JDBC"></transactionManager>
+                <dataSource type="POOLED">
+                    <property name="driver" value="com.mysql.jdbc.Driver"/>
+                    <property name="url" value="jdbc:mysql:///ssm02_crud"/>
+                    <property name="username" value="root"/>
+                    <property name="password" value="123456"/>
+                </dataSource>
+            </environment>
+        </environments>
+    <!--引入映射配置文件-->
+
+</configuration>

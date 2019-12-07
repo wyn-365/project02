@@ -1,0 +1,6 @@
+# Project exclude paths
+/ForestBlog/target/
+/mapreduce/target/
+/out/
+/ssm01/target/
+/ssm02_crud/target/
